@@ -2,6 +2,7 @@
 :root {
   --primary-color: #f637ec;
   --dark-color: #151515;
+  --light-gray: #292929;
   --muted-color: #c5c5c5;
 }
 body,
@@ -15,7 +16,7 @@ body,
   font-family: "Rubik", sans-serif;
 }
 body {
-  padding-top: 120px;
+  padding-top: 150px;
   background-color: var(--dark-color);
 }
 .whitespace {
@@ -123,7 +124,7 @@ h1 {
   width: 280px;
   height: 40px;
   font-size: 1.5rem;
-  margin: 80px 0 150px;
+  margin: 80px 0;
 }
 .hero-btn img:first-of-type {
   height: 100%;
@@ -173,4 +174,14 @@ h1 {
   z-index: 7;
   top: -60px;
   right: -10px;
+}
+
+/* LOGO DISPLAY SECTION */
+.logo-display-section {
+  background-color: var(--light-gray);
+  text-align: center;
+  padding: 5% 0;
+}
+.logo-display-section img {
+  padding: 0 3%;
 }
